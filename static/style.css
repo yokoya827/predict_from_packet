@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+   }
+   .spacer {
+    padding-top: 10vh;
+   }
+   .termux_table {
+    width: 95%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #13c3ac;
+    word-break: break-all;
+    word-wrap: break-all;
+   }
+   .termux_table td {
+    padding: 1px;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    color: #333;
+    border: solid 1px #FFF;
+   }
+   .app-btn {
+    display: inline-block;
+    padding: .5em 1em;
+    border: 3px solid #333;
+    border-radius: .25em;
+    background-color: #FFF;
+   }
+   .app-btn a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: .3s;
+   }
+   .app-btn a:hover {
+    background: #13c3ac;
+   }
