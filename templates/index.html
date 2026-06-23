@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Random GRAPH</title>
+</head>
+<body>
+<h1>混雑度予測アプリ</h1>
+<button class="app-btn"><a href="/table">混雑状況の一覧</a></button><button class="app-btn"><a href="/hour">1時間後</a></button><button class="app-btn"><a href="/bo">30分後</a></button><button class="app-btn"><a href="/oresen">10分後</a></button><button class="app-btn"><a href="/en">現在</a></button><button class="app-btn"><a href="/refresh">更新</a></button>
+<p></p>
+{{data | safe}}
+</body>
+</html>
